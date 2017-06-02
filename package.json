@@ -1,0 +1,37 @@
+{
+  "name": "gatsby-eslint-starter",
+  "description": "Minimal gatsby starter with linting",
+  "version": "1.0.0",
+  "author": "Christian Le",
+  "dependencies": {
+    "front-matter": "^2.0.7",
+    "gatsby": "^0.12.6",
+    "history": "^2.0.2",
+    "object-assign": "^4.1.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-headroom": "^2.1.2",
+    "react-helmet": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-loader": "^1.7.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "gh-pages": "^0.11.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public",
+    "dev": "gatsby develop",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
