@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import Headroom from 'react-headroom';
-import { Link } from 'react-router';
+import { IndexLink, Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 
 import '../css/base.scss';
@@ -13,12 +13,20 @@ const IndexContainer = ({ children }) => (
       }}
     >
       <div className="nav__wrapper">
-        <a className="nav__item" href={ prefixLink('/') }>
+        <IndexLink
+          className="nav__item"
+          to={ prefixLink('/') }
+          activeStyle={{ color: 'red' }}
+        >
           about
-        </a>
-        <a className="nav__item" href={ prefixLink('/work/') }>
+        </IndexLink>
+        <Link
+          className="nav__item"
+          to={ prefixLink('/work/') }
+          activeStyle={{ color: 'red' }}
+        >
           work
-        </a>
+        </Link>
       </div>
     </Headroom>
     <div>
