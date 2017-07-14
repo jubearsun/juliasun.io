@@ -16,16 +16,30 @@ const IndexContainer = ({ children }) => (
         <IndexLink
           className="nav__item"
           to={ prefixLink('/') }
-          activeStyle={{ color: 'red' }}
+          activeStyle={{ color: '#d286e2' }}
         >
-          about
+          home
         </IndexLink>
         <Link
           className="nav__item"
-          to={ prefixLink('/work/') }
-          activeStyle={{ color: 'red' }}
+          to={ prefixLink('/about/') }
+          activeStyle={{ color: '#d286e2' }}
         >
-          work
+          about
+        </Link>
+        <Link
+          className="nav__item"
+          to={ prefixLink('/web/') }
+          activeStyle={{ color: '#d286e2' }}
+        >
+          web design
+        </Link>
+        <Link
+          className="nav__item"
+          to={ prefixLink('/travel/') }
+          activeStyle={{ color: '#d286e2' }}
+        >
+          travel
         </Link>
       </div>
     </Headroom>

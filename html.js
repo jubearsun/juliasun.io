@@ -16,6 +16,8 @@ const Html = ({ body }) => {
           content="width=device-width, initial-scale=1.0"
         />
 
+        <link rel="icon" href={prefixLink('/img/favicon.ico')} />
+
         {head.title.toComponent()}
         {head.meta.toComponent()}
 
