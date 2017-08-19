@@ -32,7 +32,21 @@ const IndexContainer = ({ children }) => (
           to={ prefixLink('/web/') }
           activeStyle={{ color: '#d286e2' }}
         >
-          web design
+          web
+        </Link>
+        <Link
+          className="nav__item"
+          to={ prefixLink('/photo/') }
+          activeStyle={{ color: '#d286e2' }}
+        >
+          photo
+        </Link>
+        <Link
+          className="nav__item"
+          to={ prefixLink('/graphic/') }
+          activeStyle={{ color: '#d286e2' }}
+        >
+          graphic
         </Link>
         <Link
           className="nav__item"
