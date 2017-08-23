@@ -16,7 +16,23 @@ const Html = ({ body }) => {
           content="width=device-width, initial-scale=1.0"
         />
 
-        <link rel="icon" href={prefixLink('/img/favicon.ico')} />
+        <link
+          rel="icon"
+          href={prefixLink('/img/favicon.ico')}
+        />
+
+        <link
+          href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,700"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Signika:300,400,700"
+          rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+        />
 
         {head.title.toComponent()}
         {head.meta.toComponent()}

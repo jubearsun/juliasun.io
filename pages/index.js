@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 const IndexComponent = () => (
   <div>
     <Helmet
-      title="Hello World"
+      title="Julia Sun"
       meta={[
         {
           name: 'description',
@@ -16,9 +16,7 @@ const IndexComponent = () => (
         },
       ]}
     />
-    <h1>
-      Hello World!
-    </h1>
+    Julia Sun
   </div>
 );
 
