@@ -40,10 +40,7 @@ export default class Navigation extends React.Component {
           wrapperStyle={{
             maxHeight: navbarHeight,
             maxWidth: navbarWidth,
-            margin: '0 auto'
-          }}
-          style={{
-            background: 'rgba(255, 255, 255, 0.99)'
+            margin: '0 auto',
           }}
         >
           <div

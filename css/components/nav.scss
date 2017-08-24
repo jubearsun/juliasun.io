@@ -2,10 +2,12 @@
   @include clearfix();
   height: 100%;
   max-height: $navbar-height;
-  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
   overflow: hidden;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
+  background: rgba(255, 255, 255, 0.99);
 
   @media (max-width: 820px) {
     transition: max-height 250ms;
