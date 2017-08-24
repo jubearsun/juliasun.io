@@ -62,12 +62,6 @@ export default class Navigation extends React.Component {
                 <div className="hamburger__bar bar--2"></div>
               </div>
               <div className="nav__item nav__media">
-                <a href="mailto:jubear.sun@gmail.com+juliasunio" target="_blank">
-                  <FontAwesome
-                    className="media__icon email"
-                    name="envelope"
-                  />
-                </a>
                 <a href="https://twitter.com/juuuuliasun" target="_blank">
                   <FontAwesome
                     className="media__icon twitter"
@@ -78,6 +72,18 @@ export default class Navigation extends React.Component {
                   <FontAwesome
                     className="media__icon linkedin"
                     name="linkedin-square"
+                  />
+                </a>
+                <a href="https://github.com/jubearsun" target="_blank">
+                  <FontAwesome
+                    className="media__icon github"
+                    name="github-alt"
+                  />
+                </a>
+                <a href="mailto:jubear.sun@gmail.com+juliasunio" target="_blank">
+                  <FontAwesome
+                    className="media__icon email"
+                    name="envelope"
                   />
                 </a>
               </div>
@@ -115,11 +121,11 @@ export default class Navigation extends React.Component {
               </Link>
               <Link
                 className="nav__item nav__link"
-                to={ prefixLink('/graphic/') }
+                to={ prefixLink('/graphics/') }
                 onClick={this._handleNavLink}
                 activeStyle={{ background: '#d286e2', color: 'white' }}
               >
-                Graphic
+                Graphics
               </Link>
               <Link
                 className="nav__item nav__link"

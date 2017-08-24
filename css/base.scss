@@ -16,6 +16,7 @@ body {
 }
 
 .content {
+  height: 100%;
   max-width: $global-max-width;
   margin: 0 auto;
   background: $white;
@@ -24,5 +25,11 @@ body {
   a {
     text-decoration: none;
     color: $purple;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 250ms;
+
+    &:hover {
+      border-bottom: 2px solid $purple;
+    }
   }
 }
