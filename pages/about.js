@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 import _ from 'lodash';
 
 
-export default class Index extends React.Component {
+export default class About extends React.Component {
 
   componentDidMount() {}
 

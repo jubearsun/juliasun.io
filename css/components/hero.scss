@@ -1,0 +1,29 @@
+.hero--img {
+  width: 100%;
+  font-size: 0;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.hero--label {
+  width: 100%;
+  background: $purple;
+  color: $white;
+
+  .hero--title {
+    font-size: 42px;
+    text-align: center;
+    padding: 24px 0;
+  }
+
+  .hero--summary {
+    font-size: 24px;
+    text-align: left;
+    padding: 24px 8%;
+    font-weight: 300;
+    line-height: 36px;
+  }
+}

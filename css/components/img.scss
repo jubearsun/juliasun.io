@@ -1,0 +1,73 @@
+.card__wrapper {
+  margin: 24px 0;
+  width: 100%;
+  font-size: 0;
+
+  .img__wrapper {
+    display: inline-block;
+    height: 100%;
+    width: 60%;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .text__wrapper {
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+    padding: 0 24px;
+
+    .info__wrapper {
+      margin-top: 25%;
+
+      .title {
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        text-align: center;
+      }
+
+      .text {
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 300;
+        margin: 8px 0;
+      }
+    }
+  }
+}
+
+.belt__wrapper {
+  width: 100%;
+  font-size: 0;
+
+  .img__wrapper {
+    display: inline-block;
+    width: 33.333333%;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.double__wrapper {
+  width: 100%;
+  font-size: 0;
+
+  .img__wrapper {
+    display: inline-block;
+    width: 50%;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

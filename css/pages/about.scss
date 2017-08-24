@@ -21,7 +21,6 @@
       height: 100%;
       width: 50%;
       padding: 0 24px;
-      font-family: 'Signika', sans-serif;
       text-align: center;
 
       .info__wrapper {
@@ -55,7 +54,7 @@
     }
 
     .interest {
-      width: 33%;
+      width: 33.333333%;
       display: inline-block;
 
       .interest__link {
@@ -127,7 +126,7 @@
         }
 
         .interest__details {
-          padding: 28px;
+          padding: 36px;
           color: $white;
           opacity: 1;
 

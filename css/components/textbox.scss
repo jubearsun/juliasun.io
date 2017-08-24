@@ -1,0 +1,17 @@
+.textbox {
+  margin: 24px 0;
+
+  .textbox--title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .textbox--content {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    padding: 24px 8%;
+  }
+}

@@ -5,7 +5,7 @@ const IndexComponent = () => (
     <div className="text">
       Well this is awkward...the page you were looking for doesn&apos;t seem to exist.
       <p>
-      Go back to the <a href="/">home page</a>.
+        <a href="/">Click here to go back to the home page</a>.
       </p>
     </div>
   </div>
