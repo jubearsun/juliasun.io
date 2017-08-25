@@ -42,8 +42,8 @@ export default class Betta extends React.Component {
             <div className="textbox--content">
               <p>
                 I was at PetSmart on a whim when I picked up a gorgeous blue and white
-                betta and decided to take him home.  Despite objections from my
-                boyfriend I bought him and a little 1-gallon tank to keep him in.
+                betta and decided to take him home.  I bought him and a little 1-gallon
+                tank to keep him in.
                 At the time, I didn&#39;t really think he would make any special impression on me, I
                 just wanted him because he was pretty.
               </p>
@@ -169,7 +169,7 @@ export default class Betta extends React.Component {
                     Previous
                   </div>
                   <div className="desc--content">
-                    Follow my friend and I as we eat the world
+                    Follow my food adventures
                   </div>
                 </div>
               </div>

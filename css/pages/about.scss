@@ -13,6 +13,11 @@
         height: 100%;
         width: 100%;
       }
+
+      @media (max-width: 980px) {
+        display: block;
+        width: 100%;
+      }
     }
 
     .wrapper--right {
@@ -27,6 +32,15 @@
         .name__wrapper {
           font-size: 42px;
           margin: 8px auto;
+
+          @media (max-width: 1070px) {
+            font-size: 36px;
+            margin: 2px auto;
+          }
+
+          @media (max-width: 980px) {
+            margin-top: 18px;
+          }
         }
 
         .desc {
@@ -35,12 +49,35 @@
           margin: 8px 0;
           padding: 4px;
 
+          @media (max-width: 1070px) {
+            font-size: 18px;
+          }
+
+          @media (max-width: 980px) {
+            font-size: 24px;
+            line-height: 36px;
+          }
+
           &.small {
             font-size: 18px;
             line-height: 1.75rem;
             text-align: left;
+
+            @media (max-width: 1070px) {
+              font-size: 16px;
+            }
+
+            @media (max-width: 980px) {
+              font-size: 18px;
+              padding: 0 4% 4% 4%;
+            }
           }
         }
+      }
+
+      @media (max-width: 980px) {
+        display: block;
+        width: 100%;
       }
     }
   }
@@ -133,12 +170,33 @@
           .interest__details--title {
             font-size: 36px;
             margin-bottom: 8px;
+
+            @media (max-width: 810px) {
+              font-size: 24px;
+            }
+
+            @media (max-width: 640px) {
+              font-size: 36px;
+            }
           }
 
           .interest__details--desc {
             font-size: 24px;
+
+            @media (max-width: 810px) {
+              font-size: 18px;
+            }
+
+            @media (max-width: 640px) {
+              font-size: 24px;
+            }
           }
         }
+      }
+
+      @media (max-width: 640px) {
+        display: block;
+        width: 100%;
       }
     }
   }
