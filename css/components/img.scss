@@ -42,6 +42,15 @@
         }
       }
 
+      .subtitle {
+        font-size: 24px;
+        text-align: center;
+
+        @media (max-width: 960px) {
+          font-size: 22px;
+        }
+      }
+
       .text {
         font-size: 18px;
         line-height: 32px;
@@ -73,6 +82,7 @@
 .belt__wrapper {
   width: 100%;
   font-size: 0;
+  text-align: center;
 
   .img__wrapper {
     display: inline-block;
@@ -81,6 +91,65 @@
     img {
       height: 100%;
       width: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: $white;
+      top: 0;
+      left: 0;
+      transition: opacity 250ms;
+      opacity: 0;
+    }
+
+    .text {
+      @include vertical-align();
+      position: absolute;
+      z-index: 5;
+      width: 100%;
+      color: $black;
+      opacity: 0;
+      transition: opacity 250ms;
+      text-align: center;
+      padding: 24px;
+
+      .title {
+        font-size: 36px;
+        margin: 12px 0;
+
+        @media (max-width: 624px) {
+          font-size: 24px;
+          margin: 4px 0;
+        }
+
+        @media (max-width: 400px) {
+          font-size: 18px;
+        }
+      }
+
+      .location {
+        font-size: 24px;
+
+        @media (max-width: 624px) {
+          font-size: 18px;
+        }
+
+        @media (max-width: 400px) {
+          font-size: 16px;
+        }
+      }
+    }
+
+    &:hover, &:focus {
+      .overlay {
+        opacity: 0.9;
+      }
+
+      .text {
+        opacity: 1;
+      }
     }
   }
 }

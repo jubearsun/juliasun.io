@@ -174,7 +174,7 @@ export default class Betta extends React.Component {
                 </div>
               </div>
             </a>
-            <a href="musicals/">
+            <a href="/musicals/">
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">
