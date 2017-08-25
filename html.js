@@ -11,9 +11,33 @@ const Html = ({ body }) => {
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="Julia Sun" />
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1.0"
+          content="width=device-width, initial-scale=1.0 maximum-scale=1.0"
+        />
+        <meta
+          name="description"
+          content="Julia Sun | Software & Design | Welcome to a piece of my world!"
+        />
+        <meta
+          name="keywords"
+          content="julia sun, jubearsun, juuuuliasun, uc berkeley, google, software engineer, san francisco, bay area"
+        />
+        <meta
+          property="og:image"
+          content="http://juliasun.io/img/julia.jpg"
+        />
+        <meta
+          property="og:title"
+          content="Julia Sun"
+        />
+        <meta
+          property="og:type"
+          content="website" />
+        <meta
+          property="og:url"
+          content="http://juliasun.io"
         />
 
         <link

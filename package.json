@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-eslint-starter",
-  "description": "Minimal gatsby starter with linting",
+  "name": "personal-site",
+  "description": "Julia Sun's Personal Website",
   "version": "1.0.0",
-  "author": "Christian Le",
+  "author": "Julia Sun",
   "dependencies": {
     "classnames": "^2.2.5",
     "front-matter": "^2.0.7",
