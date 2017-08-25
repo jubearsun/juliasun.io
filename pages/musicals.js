@@ -65,9 +65,6 @@ export default class Musicals extends React.Component {
           <div className="location">
             { musical.location }
           </div>
-          <div className="desc">
-            { musical.desc }
-          </div>
         </div>
       </div>,
     );
