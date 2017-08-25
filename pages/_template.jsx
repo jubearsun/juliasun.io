@@ -110,19 +110,19 @@ export default class Navigation extends React.Component {
               </Link>
               <Link
                 className="nav__item nav__link"
-                to={ prefixLink('/photo/') }
-                onClick={this._handleNavLink}
-                activeStyle={{ background: '#d286e2', color: 'white' }}
-              >
-                Photo
-              </Link>
-              <Link
-                className="nav__item nav__link"
                 to={ prefixLink('/graphics/') }
                 onClick={this._handleNavLink}
                 activeStyle={{ background: '#d286e2', color: 'white' }}
               >
                 Graphics
+              </Link>
+              <Link
+                className="nav__item nav__link"
+                to={ prefixLink('/photo/') }
+                onClick={this._handleNavLink}
+                activeStyle={{ background: '#d286e2', color: 'white' }}
+              >
+                Photo
               </Link>
               <Link
                 className="nav__item nav__link"

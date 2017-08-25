@@ -1,5 +1,46 @@
 import React from 'react';
+import { prefixLink } from 'gatsby-helpers'; // eslint-disable-line
 import Helmet from 'react-helmet';
+
+import _ from 'lodash';
+
+const works = [
+  {
+    title: 'Web Design',
+    img: '../img/works/web.gif',
+    link: '',
+  },
+  {
+    title: 'Graphic Design',
+    img: '../img/works/graphic.png',
+  },
+  {
+    title: 'Photography',
+    img: '../img/works/photo/2.jpg',
+    link: '',
+  },
+];
+
+const workElems = _.map(works, (work, index) =>
+  <div
+    key={`workElem-${index}`}
+    className="img__wrapper"
+  >
+    <img
+      src={prefixLink(work.img)}
+      alt="work"
+    />
+    <div className="overlay" />
+    <div className="text">
+      <div className="title">
+        { work.title }
+      </div>
+      <div className="subtitle">
+        { work.subtitle }
+      </div>
+    </div>
+  </div>,
+);
 
 const IndexComponent = () => (
   <div>
@@ -37,19 +78,8 @@ const IndexComponent = () => (
           </div>
         </div>
       </div>
-      <div className="bottom__wrapper">
-        <div className="category">
-          web design
-        </div>
-        <div className="category">
-          photography
-        </div>
-        <div className="category">
-          graphic design
-        </div>
-        <div className="category">
-          travel
-        </div>
+      <div className="grid--home">
+        { workElems }
       </div>
     </div>
   </div>

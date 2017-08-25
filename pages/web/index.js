@@ -17,7 +17,7 @@ export default class Web extends React.Component {
         link: '',
       },
       {
-        title: 'Innovative Design Website',
+        title: 'Innovative Design',
         img: '../img/works/web/innod-website.gif',
         link: '',
       },

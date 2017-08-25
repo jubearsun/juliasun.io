@@ -18,7 +18,7 @@ const Html = ({ body }) => {
         />
         <meta
           name="description"
-          content="Julia Sun | Software & Design | Welcome to a piece of my world!"
+          content="Julia Sun | Welcome to a piece of my world!"
         />
         <meta
           name="keywords"

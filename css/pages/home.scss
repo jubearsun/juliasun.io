@@ -21,6 +21,11 @@
       a {
         border-bottom: 0;
       }
+
+      @media (max-width: 670px) {
+        display: block;
+        width: 100%;
+      }
     }
 
     .wrapper--right {
@@ -49,6 +54,15 @@
             color: $purple;
           }
         }
+
+        @media (max-width: 670px) {
+          margin-top: 35%;
+        }
+      }
+
+      @media (max-width: 670px) {
+        display: block;
+        width: 100%;
       }
     }
   }
