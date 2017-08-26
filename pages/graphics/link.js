@@ -50,7 +50,7 @@ export default class Link extends React.Component {
               <p>
                 The biggest challenge was shading him in.  I learned pretty much
                 all I know now about layers and eyedrop from coloring him and
-                trying but failing not to overlap different colored outlines.
+                trying not to overlap different colored outlines (but failing).
               </p>
               <br />
               <p>
