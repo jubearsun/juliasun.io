@@ -8,38 +8,41 @@ const works = [
   {
     title: 'Web Design',
     img: '../img/works/web.gif',
-    link: '',
+    link: '/web/',
   },
   {
     title: 'Graphic Design',
     img: '../img/works/graphic.png',
+    link: '/graphics/',
   },
   {
     title: 'Photography',
     img: '../img/works/photo/2.jpg',
-    link: '',
+    link: '/photo/',
   },
 ];
 
 const workElems = _.map(works, (work, index) =>
-  <div
-    key={`workElem-${index}`}
-    className="img__wrapper"
-  >
-    <img
-      src={prefixLink(work.img)}
-      alt="work"
-    />
-    <div className="overlay" />
-    <div className="text">
-      <div className="title">
-        { work.title }
-      </div>
-      <div className="subtitle">
-        { work.subtitle }
+  <a href={prefixLink(work.link)}>
+    <div
+      key={`workElem-${index}`}
+      className="img__wrapper"
+    >
+      <img
+        src={prefixLink(work.img)}
+        alt="work"
+      />
+      <div className="overlay" />
+      <div className="text">
+        <div className="title">
+          { work.title }
+        </div>
+        <div className="subtitle">
+          { work.subtitle }
+        </div>
       </div>
     </div>
-  </div>,
+  </a>,
 );
 
 const IndexComponent = () => (
@@ -60,8 +63,11 @@ const IndexComponent = () => (
     <div className="page--home">
       <div className="top__wrapper">
         <div className="wrapper--left">
-          <a href="/about/">
-            <img src="./img/julia.jpg" alt="julia" />
+          <a href={prefixLink('/about/')}>
+            <img
+              src={prefixLink('./img/julia.jpg')}
+              alt="julia"
+            />
           </a>
         </div>
         <div className="wrapper--right">

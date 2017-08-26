@@ -166,6 +166,19 @@
       height: 100%;
       width: 100%;
     }
+
+    @media (max-width: 520px) {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &.cal {
+    margin-bottom: 24px;
+
+    @media (max-width: 520px) {
+      margin-bottom: 0;
+    }
   }
 }
 

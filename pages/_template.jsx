@@ -59,25 +59,25 @@ export default class Navigation extends React.Component {
                 <div className="hamburger__bar bar--2"></div>
               </div>
               <div className="nav__item nav__media">
-                <a href="https://twitter.com/juuuuliasun" target="_blank">
+                <a href="https://twitter.com/juuuuliasun" target="_blank" rel="noreferrer noopener">
                   <FontAwesome
                     className="media__icon twitter"
                     name="twitter"
                   />
                 </a>
-                <a href="https://www.linkedin.com/in/juliasun5/" target="_blank">
+                <a href="https://www.linkedin.com/in/juliasun5/" target="_blank" rel="noreferrer noopener">
                   <FontAwesome
                     className="media__icon linkedin"
                     name="linkedin-square"
                   />
                 </a>
-                <a href="https://github.com/jubearsun" target="_blank">
+                <a href="https://github.com/jubearsun" target="_blank" rel="noreferrer noopener">
                   <FontAwesome
                     className="media__icon github"
                     name="github-alt"
                   />
                 </a>
-                <a href="mailto:jubear.sun@gmail.com+juliasunio" target="_blank">
+                <a href="mailto:jubear.sun@gmail.com+juliasunio" target="_blank" rel="noreferrer noopener">
                   <FontAwesome
                     className="media__icon email"
                     name="envelope"

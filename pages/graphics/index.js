@@ -14,33 +14,38 @@ export default class Graphics extends React.Component {
       {
         title: 'Betta Infographic',
         img: '../img/works/graphic/betta.png',
+        link: 'infographic/',
       },
       {
         title: 'Pen Tooling Link',
         img: '../img/works/graphic/link.png',
+        link: 'link/',
       },
       {
         title: 'Cal Day Marketing',
         img: '../img/works/graphic/sathergate.png',
+        link: 'calday/',
       },
     ];
 
     const workElems = _.map(works, (work, index) =>
-      <div
-        key={`workElem-${index}`}
-        className="img__wrapper"
-      >
-        <img
-          src={prefixLink(work.img)}
-          alt="work"
-        />
-        <div className="overlay" />
-        <div className="text">
-          <div className="title">
-            { work.title }
+      <a href={prefixLink(work.link)}>
+        <div
+          key={`workElem-${index}`}
+          className="img__wrapper"
+        >
+          <img
+            src={prefixLink(work.img)}
+            alt="work"
+          />
+          <div className="overlay" />
+          <div className="text">
+            <div className="title">
+              { work.title }
+            </div>
           </div>
         </div>
-      </div>,
+      </a>,
     );
 
     return (

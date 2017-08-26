@@ -18,9 +18,6 @@ export default class Photo extends React.Component {
         img: '../img/works/photo/1.jpg',
       },
       {
-        img: '../img/works/photo/4.jpg',
-      },
-      {
         img: '../img/works/photo/3.jpg',
       },
     ];

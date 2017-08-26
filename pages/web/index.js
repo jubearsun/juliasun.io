@@ -14,51 +14,48 @@ export default class Web extends React.Component {
       {
         title: 'CMYK',
         img: '../img/works/web/cmyk.gif',
-        link: '',
+        link: 'cmyk/',
       },
       {
         title: 'Innovative Design',
         img: '../img/works/web/innod-website.gif',
-        link: '',
-      },
-      {
-        title: 'HEX Workshop',
-        img: '../img/works/web/instagram-grid.png',
-        link: '',
+        link: 'innod/',
       },
       {
         title: 'Innovative Design Newsletter',
         img: '../img/works/web/newsletter.png',
-        link: '',
+        link: 'newsletter/',
       },
       {
         title: 'HEX',
         img: '../img/works/web/hex.gif',
-        link: '',
+        link: 'hex/',
       },
       {
         title: 'RGB',
         img: '../img/works/web/rgb.gif',
-        link: '',
+        link: 'rgb/',
       },
     ];
 
     const workElems = _.map(works, (work, index) =>
-      <div
-        key={`workElem-${index}`}
-        className="img__wrapper"
-      >
-        <img
-          src={prefixLink(work.img)}
-          alt="work"
-        />
-        <div className="overlay" />
-        <div className="text">
-          <div className="title">
-            { work.title }
+      <a href={prefixLink(work.link)}>
+        <div
+          key={`workElem-${index}`}
+          className="img__wrapper"
+        >
+          <img
+            src={prefixLink(work.img)}
+            alt="work"
+          />
+          <div className="overlay" />
+          <div className="text">
+            <div className="title">
+              { work.title }
+            </div>
           </div>
         </div>
-      </div>,
+      </a>,
     );
 
     return (
