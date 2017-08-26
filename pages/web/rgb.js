@@ -65,7 +65,7 @@ export default class RGB extends React.Component {
             </div>
           </div>
           <div className="page--nav">
-            <a href={prefixLink('../hex/')}>
+            <a href={prefixLink('/web/hex/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">
@@ -77,7 +77,7 @@ export default class RGB extends React.Component {
                 </div>
               </div>
             </a>
-            <a href={prefixLink('../cmyk/')}>
+            <a href={prefixLink('/web/cmyk/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">

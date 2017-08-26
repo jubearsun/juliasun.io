@@ -67,7 +67,7 @@ export default class Hex extends React.Component {
             </div>
           </div>
           <div className="page--nav">
-            <a href={prefixLink('../innod/')}>
+            <a href={prefixLink('/web/innod/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">
@@ -79,7 +79,7 @@ export default class Hex extends React.Component {
                 </div>
               </div>
             </a>
-            <a href={prefixLink('../rgb/')}>
+            <a href={prefixLink('web/rgb/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">

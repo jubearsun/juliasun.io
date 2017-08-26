@@ -14,17 +14,17 @@ export default class Graphics extends React.Component {
       {
         title: 'Betta Infographic',
         img: '../img/works/graphic/betta.png',
-        link: 'infographic/',
+        link: '/graphics/infographic/',
       },
       {
         title: 'Pen Tooling Link',
         img: '../img/works/graphic/link.png',
-        link: 'link/',
+        link: '/graphics/link/',
       },
       {
         title: 'Cal Day Marketing',
         img: '../img/works/graphic/sathergate.png',
-        link: 'calday/',
+        link: '/graphics/calday/',
       },
     ];
 

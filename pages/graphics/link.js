@@ -63,7 +63,7 @@ export default class Link extends React.Component {
             </div>
           </div>
           <div className="page--nav">
-            <a href={prefixLink('../calday/')}>
+            <a href={prefixLink('/graphics/calday/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">
@@ -75,7 +75,7 @@ export default class Link extends React.Component {
                 </div>
               </div>
             </a>
-            <a href={prefixLink('../infographic/')}>
+            <a href={prefixLink('/graphics/infographic/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">

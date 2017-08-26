@@ -83,7 +83,7 @@ export default class CMYK extends React.Component {
             </div>
           </div>
           <div className="page--nav">
-            <a href={prefixLink('../rgb/')}>
+            <a href={prefixLink('/web/rgb/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">
@@ -95,7 +95,7 @@ export default class CMYK extends React.Component {
                 </div>
               </div>
             </a>
-            <a href={prefixLink('../newsletter/')}>
+            <a href={prefixLink('/web/newsletter/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">

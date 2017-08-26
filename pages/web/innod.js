@@ -149,7 +149,7 @@ export default class Innod extends React.Component {
             </div>
           </div>
           <div className="page--nav">
-            <a href={prefixLink('../newsletter/')}>
+            <a href={prefixLink('/web/newsletter/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">
@@ -161,7 +161,7 @@ export default class Innod extends React.Component {
                 </div>
               </div>
             </a>
-            <a href={prefixLink('../hex/')}>
+            <a href={prefixLink('/web/hex/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">

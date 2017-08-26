@@ -89,7 +89,7 @@ export default class Betta extends React.Component {
           <div className="card__wrapper">
             <div className="img__wrapper">
               <img
-                src={prefixLink('../../img/about/bettas/3gal.JPG')}
+                src={prefixLink('../../img/about/bettas/3gal.jpg')}
                 alt="3 gallon tank"
               />
             </div>
@@ -162,7 +162,7 @@ export default class Betta extends React.Component {
             </div>
             <div className="img__wrapper">
               <img
-                src={prefixLink('../../img/about/bettas/dratiniafter.JPG')}
+                src={prefixLink('../../img/about/bettas/dratiniafter.jpg')}
                 alt="dratini after"
               />
             </div>
@@ -189,7 +189,7 @@ export default class Betta extends React.Component {
                 </div>
               </div>
             </a>
-            <a href={prefixLink('../musicals/')}>
+            <a href={prefixLink('/about/musicals/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">

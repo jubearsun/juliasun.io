@@ -58,7 +58,7 @@ export default class Infographic extends React.Component {
             </div>
           </div>
           <div className="page--nav">
-            <a href={prefixLink('../link/')}>
+            <a href={prefixLink('/graphics/link/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">
@@ -70,7 +70,7 @@ export default class Infographic extends React.Component {
                 </div>
               </div>
             </a>
-            <a href={prefixLink('../calday/')}>
+            <a href={prefixLink('/graphics/calday/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">

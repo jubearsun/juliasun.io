@@ -79,7 +79,7 @@ export default class Newsletter extends React.Component {
             </div>
           </div>
           <div className="page--nav">
-            <a href={prefixLink('../cmyk/')}>
+            <a href={prefixLink('/web/cmyk/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">
@@ -91,7 +91,7 @@ export default class Newsletter extends React.Component {
                 </div>
               </div>
             </a>
-            <a href={prefixLink('../innod/')}>
+            <a href={prefixLink('/web/innod/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">

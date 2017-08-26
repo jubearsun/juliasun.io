@@ -21,13 +21,13 @@ export default class About extends React.Component {
         title: 'betta fish',
         desc: 'my bettas and betta myths',
         img: '../img/about/icecube.jpeg',
-        url: 'betta/',
+        url: '/about/betta/',
       },
       {
         title: 'musicals',
         desc: 'a list of the musicals i\'ve seen',
         img: '../img/about/musicals.jpeg',
-        url: 'musicals/',
+        url: '/about/musicals/',
       },
     ];
 

@@ -14,27 +14,27 @@ export default class Web extends React.Component {
       {
         title: 'CMYK',
         img: '../img/works/web/cmyk.gif',
-        link: 'cmyk/',
+        link: '/web/cmyk/',
       },
       {
         title: 'Innovative Design',
         img: '../img/works/web/innod-website.gif',
-        link: 'innod/',
+        link: '/web/innod/',
       },
       {
         title: 'Innovative Design Newsletter',
         img: '../img/works/web/newsletter.png',
-        link: 'newsletter/',
+        link: '/web/newsletter/',
       },
       {
         title: 'HEX',
         img: '../img/works/web/hex.gif',
-        link: 'hex/',
+        link: '/web/hex/',
       },
       {
         title: 'RGB',
         img: '../img/works/web/rgb.gif',
-        link: 'rgb/',
+        link: '/web/rgb/',
       },
     ];
 

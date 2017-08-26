@@ -80,7 +80,7 @@ export default class Musicals extends React.Component {
           </div>
         </div>
         <div className="page--nav">
-          <a href={prefixLink('../betta/')}>
+          <a href={prefixLink('/about/betta/')}>
             <div className="button">
               <div className="desc">
                 <div className="desc--title">
