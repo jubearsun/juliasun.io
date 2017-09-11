@@ -149,7 +149,7 @@
       }
     }
 
-    &:hover, &:active {
+    &:hover, &:active, &:focus {
       .overlay {
         opacity: 0.9;
       }
@@ -241,7 +241,7 @@
       }
     }
 
-    &:hover, &:active {
+    &:hover, &:active, &:focus {
       .overlay {
         opacity: 0.8;
       }
@@ -314,7 +314,7 @@
       }
     }
 
-    &:hover, &:active {
+    &:hover, &:active, &:focus {
       .overlay {
         opacity: 0.9;
       }
@@ -384,9 +384,19 @@
       }
     }
 
-    &:hover, &:active {
+    &:hover, &:active, &:focus {
       .overlay {
         opacity: 0.8;
+      }
+
+      .text {
+        opacity: 1;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .overlay {
+        opacity: 0.6;
       }
 
       .text {

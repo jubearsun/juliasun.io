@@ -119,6 +119,10 @@
           -webkit-transition: opacity 250ms;
           transition: opacity 250ms;
           opacity: 0;
+
+          @media screen and (max-width: 500px) {
+            opacity: 0.7;
+          }
         }
 
         .box {
@@ -131,6 +135,14 @@
           opacity: 0;
           transition: all 250ms;
           z-index: 5;
+
+          @media screen and (max-width: 500px) {
+            top: 7.5%;
+            bottom: 7.5%;
+            left: 7.5%;
+            right: 7.5%;
+            opacity: 1;
+          }
         }
 
         .interest__details {
@@ -146,10 +158,41 @@
           opacity: 0;
           z-index: 1;
           transition: opacity 250ms;
+
+          @media screen and (max-width: 500px) {
+            padding: 36px;
+            color: $white;
+            opacity: 1;
+
+            .interest__details--title {
+              font-size: 36px;
+              margin-bottom: 8px;
+
+              @media (max-width: 810px) {
+                font-size: 24px;
+              }
+
+              @media (max-width: 640px) {
+                font-size: 36px;
+              }
+            }
+
+            .interest__details--desc {
+              font-size: 24px;
+
+              @media (max-width: 810px) {
+                font-size: 18px;
+              }
+
+              @media (max-width: 640px) {
+                font-size: 24px;
+              }
+            }
+          }
         }
       }
 
-      &:hover, &:active {
+      &:hover, &:active, &:focus {
         .box {
           top: 7.5%;
           bottom: 7.5%;
