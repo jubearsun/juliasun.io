@@ -52,7 +52,7 @@ const IndexComponent = () => (
       meta={[
         {
           name: 'description',
-          content: 'Julia Sun: Software, Design, Food',
+          content: 'Welcome to a piece of my world!',
         },
         {
           name: 'keywords',

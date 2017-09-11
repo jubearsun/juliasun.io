@@ -10,7 +10,7 @@
   background: rgba(255, 255, 255, 0.99);
   z-index: 10000;
 
-  @media (max-width: 996px) {
+  @media (max-width: 1040px) {
     transition: max-height 250ms;
     box-shadow: 0 1px 1px 1px rgba($grey, 0.15);
 
@@ -86,7 +86,7 @@
     }
   }
 
-  @media (max-width: 996px) {
+  @media (max-width: 1040px) {
     .nav__wrapper {
       .nav__item {
         display: block;
@@ -150,6 +150,7 @@
   font-size: 0;
 
   a {
+    vertical-align: top;
     display: inline-block;
     height: 100%;
     width: 49.875%;
@@ -163,55 +164,55 @@
       cursor: pointer;
       border-bottom: 2px solid transparent;
     }
-  }
 
-  .button {
-    padding: 16px;
-    display: inline-block;
-    border: 4px solid $purple;
-    height: 100%;
-    width: 100%;
-    background: $purple;
-    transition: opacity 250ms;
-    overflow: hidden;
-
-    .desc {
-      color: $white;
-      text-align: center;
-      top: 50%;
-      transform: translateY(-50%);
-      z-index: 2;
-
-      .desc--title {
-        font-size: 24px;
-      }
-
-      .desc--content {
-        margin: 8px 0;
-        font-weight: 300;
-        font-size: 18px;
-      }
-    }
-
-    &::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
+    .button {
+      padding: 16px;
+      display: inline-block;
+      border: 4px solid $purple;
       height: 100%;
       width: 100%;
-      top: 105%;
-      background: $white;
-      transition: top 250ms;
-    }
+      background: $purple;
+      transition: opacity 250ms;
+      overflow: hidden;
 
-    &:hover {
       .desc {
-        color: $purple;
+        color: $white;
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+
+        .desc--title {
+          font-size: 24px;
+        }
+
+        .desc--content {
+          margin: 8px 0;
+          font-weight: 300;
+          font-size: 18px;
+        }
       }
 
       &::after {
-        top: 0%;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        top: 105%;
+        background: $white;
+        transition: top 250ms;
+      }
+
+      &:hover {
+        .desc {
+          color: $purple;
+        }
+
+        &::after {
+          top: 0%;
+        }
       }
     }
   }

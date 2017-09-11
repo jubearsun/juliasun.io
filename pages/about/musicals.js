@@ -14,36 +14,43 @@ export default class Musicals extends React.Component {
       {
         title: 'In The Heights',
         location: 'Richards Rodgers Theater',
+        desc: 'Lin Manuel Miranda\'s first musical before Hamilton was also my first musical!',
         img: '../../img/about/musicals/intheheights.jpg',
       },
       {
         title: 'Les Miserables',
         location: 'SHN Orpheum Theater',
+        desc: 'One of my favorite musicals, also read the book, which was pretty amazing in itself',
         img: '../../img/about/musicals/lesmis.jpeg',
       },
       {
         title: 'Book of Mormon',
         location: 'Eugene O\'Neill Theater',
+        desc: 'I didn\'t know it was by the creators of South Park until after the show, then everything made a lot of sense',
         img: '../../img/about/musicals/bookofmormon.png',
       },
       {
         title: 'Phantom of the Opera',
         location: 'SHN Orpheum Theater',
+        desc: 'I actually watched the movie as a kid before seeing the musical, the musical is better.',
         img: '../../img/about/musicals/phantom.jpg',
       },
       {
         title: 'Hamilton',
         location: 'SHN Orpheum Theater',
+        desc: 'The musical that everyone knows, it was so good I saw it twice and would be down to see it again.  I also read the book, highly recommend it too.',
         img: '../../img/about/musicals/hamilton.jpg',
       },
       {
         title: 'Wicked',
         location: 'Gershwin Theater',
+        desc: 'Although the show in general was not one of my favorites, I get really hyped at a good Defying Gravity.',
         img: '../../img/about/musicals/wicked.png',
       },
       {
         title: 'Lion King',
         location: 'Minskoff Theater',
+        desc: 'Probably the most visually appealing and expensive show I\'ve ever seen, would definitely watch it again',
         img: '../../img/about/musicals/lionking.png',
       },
     ];
@@ -65,6 +72,9 @@ export default class Musicals extends React.Component {
           <div className="location">
             { musical.location }
           </div>
+          <div className="desc">
+            { musical.desc }
+          </div>
         </div>
       </div>,
     );
@@ -75,7 +85,7 @@ export default class Musicals extends React.Component {
           title="Julia Sun | Musicals"
         />
         <div className="page--musicals">
-          <div className="belt__wrapper">
+          <div className="grid__wrapper">
             { musicalElems }
           </div>
         </div>

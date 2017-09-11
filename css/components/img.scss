@@ -79,10 +79,9 @@
   }
 }
 
-.belt__wrapper {
+.grid__wrapper {
   width: 100%;
   font-size: 0;
-  text-align: center;
 
   .img__wrapper {
     display: inline-block;
@@ -139,9 +138,18 @@
           font-size: 16px;
         }
       }
+
+      .desc {
+        margin: 8px 0;
+        font-size: 14px;
+
+        @media (max-width: 624px) {
+          font-size: 12px;
+        }
+      }
     }
 
-    &:hover, &:focus {
+    &:hover, &:active {
       .overlay {
         opacity: 0.9;
       }
@@ -149,6 +157,10 @@
       .text {
         opacity: 1;
       }
+    }
+
+    @media (max-width: 624px) {
+      width: 50%;
     }
   }
 }
@@ -229,7 +241,7 @@
       }
     }
 
-    &:hover, &:focus {
+    &:hover, &:active {
       .overlay {
         opacity: 0.8;
       }
@@ -302,7 +314,7 @@
       }
     }
 
-    &:hover, &:focus {
+    &:hover, &:active {
       .overlay {
         opacity: 0.9;
       }
@@ -372,7 +384,7 @@
       }
     }
 
-    &:hover, &:focus {
+    &:hover, &:active {
       .overlay {
         opacity: 0.8;
       }
