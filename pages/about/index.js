@@ -38,7 +38,7 @@ export default class About extends React.Component {
       >
         <a
           className="interest__link"
-          href={interest.url ? prefixLink(interest.url) : ''}
+          href={interest.url}
         >
           <div
             className="interest__photo"

@@ -107,7 +107,6 @@
     .text {
       @include vertical-align();
       position: absolute;
-      z-index: 5;
       width: 100%;
       color: $black;
       opacity: 0;
@@ -214,7 +213,6 @@
       @include vertical-align();
       position: absolute;
       width: 100%;
-      z-index: 5;
       padding: 24px;
       color: $black;
       text-align: center;
@@ -231,7 +229,7 @@
       }
     }
 
-    &:hover {
+    &:hover, &:focus {
       .overlay {
         opacity: 0.8;
       }
@@ -287,7 +285,6 @@
       @include vertical-align();
       position: absolute;
       width: 100%;
-      z-index: 5;
       padding: 36px;
       color: $black;
       text-align: center;
@@ -305,7 +302,7 @@
       }
     }
 
-    &:hover {
+    &:hover, &:focus {
       .overlay {
         opacity: 0.9;
       }
@@ -355,7 +352,6 @@
       @include vertical-align();
       position: absolute;
       width: 100%;
-      z-index: 5;
       padding: 24px;
       color: $white;
       text-align: center;
@@ -376,7 +372,7 @@
       }
     }
 
-    &:hover {
+    &:hover, &:focus {
       .overlay {
         opacity: 0.8;
       }

@@ -79,7 +79,7 @@ export default class Hex extends React.Component {
                 </div>
               </div>
             </a>
-            <a href={prefixLink('web/rgb/')}>
+            <a href={prefixLink('/web/rgb/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">

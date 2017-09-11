@@ -19,7 +19,7 @@ export default class Travel extends React.Component {
       {
         title: 'New York',
         subtitle: 'The High Line',
-        img: '../img/travel/ny-2.JPG',
+        img: '../img/travel/ny-2.jpg',
       },
       {
         title: 'Chicago',
