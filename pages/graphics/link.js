@@ -50,7 +50,7 @@ export default class Link extends React.Component {
               <p>
                 The biggest challenge was shading him in.  I learned pretty much
                 all I know now about layers and eyedrop from coloring him and
-                trying not to overlap different colored outlines (but failing).
+                trying (but failing) not to overlap different colored outlines.
               </p>
               <br />
               <p>
@@ -58,7 +58,7 @@ export default class Link extends React.Component {
                 was super frustrating for me initially, I think it
                 is solely responsible for getting me familiar enough with Illustrator
                 to create the rest of the graphics showcased on my website.
-                I&#39;m pretty happy about how it turned out.
+                I&#39;m pretty happy with how it turned out.
               </p>
             </div>
           </div>

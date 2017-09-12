@@ -128,11 +128,13 @@ export default class Innod extends React.Component {
             <div className="textbox--content">
               <p>
                 Initially I had the social media links
-                on the home page, but after feedback from the rest of
+                on the home page, on the last slide, but after feedback from the rest of
                 the officers I decided that they should be more
                 easily accessible from the rest of the website.
                 Thus, I moved them to the top right section of the navigation bar,
-                right next to Requests.
+                right next to Requests.  Since it worked so well
+                you can see I continued this in my current
+                personal website (this site)!
               </p>
               <br />
               <p>

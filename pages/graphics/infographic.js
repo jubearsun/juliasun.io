@@ -40,15 +40,18 @@ export default class Infographic extends React.Component {
             </div>
             <div className="textbox--content">
               <p>
-                I went for a cute, non realistic look because I wanted
+                I went for a cute, cartoonish look because I wanted
                 the infographic to be fun but informative. I picked
-                the top four facts about betta fish that I could
+                the top four facts about betta fish that I thought
+                most people wouldn&#39;t know and that I could
                 easily illustrate and centered them around
                 a very simple graphic of a betta fish.
               </p>
               <br />
               <p>
-                I was told that my betta fish looked like rice grains.
+                I was told that my baby betta fish looked like rice grains.
+                I also had a lot of fun making the bubbles, I learned
+                how from a quick tutorial I found online.
               </p>
               <br />
               <p>

@@ -32,7 +32,7 @@ export default class Musicals extends React.Component {
       {
         title: 'Phantom of the Opera',
         location: 'SHN Orpheum Theater',
-        desc: 'I actually watched the movie as a kid before seeing the musical, the musical is better.',
+        desc: 'Saw the movie, read the book, and the musical was definitely the best out of the three!',
         img: '../../img/about/musicals/phantom.jpg',
       },
       {
@@ -44,7 +44,7 @@ export default class Musicals extends React.Component {
       {
         title: 'Wicked',
         location: 'Gershwin Theater',
-        desc: 'Although the show in general was not one of my favorites, I get really hyped at a good Defying Gravity.',
+        desc: 'Jennifer Dinoia played Elphaba at my showing and she was amazing.  I also get really hyped at a good Defying Gravity.',
         img: '../../img/about/musicals/wicked.png',
       },
       {
@@ -52,6 +52,16 @@ export default class Musicals extends React.Component {
         location: 'Minskoff Theater',
         desc: 'Probably the most visually appealing and expensive show I\'ve ever seen, would definitely watch it again',
         img: '../../img/about/musicals/lionking.png',
+      },
+      {
+        title: 'Coming Soon!',
+        location: 'Any suggestions on my next show?',
+        img: '../../img/about/musicals/filler.png',
+      },
+      {
+        title: 'Coming Soon!',
+        location: 'Fun fact: I was actually also supposed to watch Addams Family but got sick and missed it!',
+        img: '../../img/about/musicals/filler.png',
       },
     ];
 

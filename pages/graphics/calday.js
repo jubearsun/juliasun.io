@@ -45,14 +45,23 @@ export default class CalDay extends React.Component {
                 time fleshing out the details once I got
                 the basic outline done, since I tend to oversimplify my designs.
                 My friend Tina helped me by asking me to take a look
-                at pictures of the real Sather Gate and filling in more details...
-                for example, in my first iteration, I didn&#39;t even have the detailing
-                  on the pillars nor the crosses on the lamps.
+                at pictures of the real Sather Gate and filling in more details based on
+                the real thing.
+              </p>
+              <br />
+              <p>
+                Basically, when I
+                first started, all I had was the green and grey pillars because
+                I wasn&#39;t sure how to add details and I was admittedly afraid of
+                making anything too complicated.  Luckily, I was able to get help
+                from my fellow marketing members by asking for advice directly
+                and looking at each of their works, which you can check out below
+                in the final postcard iteration.
               </p>
               <br />
               <p>
                 I&#39;m honored that so many prospective freshmen and current UC Berkeley
-                students now own something that I made!
+                students now own something that I helped contribute to!
               </p>
             </div>
           </div>

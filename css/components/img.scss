@@ -141,10 +141,14 @@
 
       .desc {
         margin: 8px 0;
-        font-size: 14px;
+        font-size: 18px;
 
         @media (max-width: 624px) {
-          font-size: 12px;
+          font-size: 16px;
+        }
+
+        @media (max-width: 400px) {
+          font-size: 14px;
         }
       }
     }
@@ -161,6 +165,21 @@
 
     @media (max-width: 624px) {
       width: 50%;
+    }
+  }
+}
+
+.belt__wrapper {
+  width: 100%;
+  font-size: 0;
+
+  .img__wrapper {
+    display: inline-block;
+    width: 33.333333%;
+
+    img {
+      height: 100%;
+      width: 100%;
     }
   }
 }

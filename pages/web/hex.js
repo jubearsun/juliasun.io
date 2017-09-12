@@ -61,6 +61,17 @@ export default class Hex extends React.Component {
               </p>
               <br />
               <p>
+                The rest of the website was fairly straightforward.  I just needed to created
+                an about page explaining what HEX was and a section for the schedule.
+                Since workshops often ran in parallel during the same timeslots, and
+                there were two separate days that workshops happened, I
+                opted to display the days side by side with each timeslot having two
+                workshops that could be expanded further onclick, so as to make the schedule easier
+                and more efficient
+                to read.
+              </p>
+              <br />
+              <p>
                 <a href="http://jubearsun.github.io/hex.innovativedesign.club/">Check out this iteration of the site live</a>.
                 The repo is located on my <a href="https://github.com/jubearsun/hex.innovativedesign.club">GitHub</a>.
               </p>

@@ -217,3 +217,8 @@
     }
   }
 }
+
+.nav .nav__wrapper .nav__item.nav__link.nav__link--active {
+  background: $purple;
+  color: white;
+}

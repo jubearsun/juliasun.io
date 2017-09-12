@@ -18,6 +18,7 @@ export default class Navigation extends React.Component {
     };
 
     this._handleHamburger = this._handleHamburger.bind(this);
+    this._activeClass = this._activeClass.bind(this);
   }
 
   _handleHamburger(e) {
@@ -31,6 +32,13 @@ export default class Navigation extends React.Component {
     this.setState({
       open: false
     });
+  }
+
+  _activeClass(path) {
+    if (this.props.location.pathname.indexOf(path) === 0) {
+      return 'nav__link--active';
+    }
+    return '';
   }
 
   render() {
@@ -88,47 +96,42 @@ export default class Navigation extends React.Component {
                 className="nav__item nav__link"
                 to={ prefixLink('/') }
                 onClick={this._handleNavLink}
-                activeStyle={{ background: '#d286e2', color: 'white' }}
+                activeStyle={{background: '#d286e2', color: 'white'}}
               >
                 Home
               </IndexLink>
               <Link
-                className="nav__item nav__link"
+                className={`nav__item nav__link ${this._activeClass('/about/')}`}
                 to={ prefixLink('/about/') }
                 onClick={this._handleNavLink}
-                activeStyle={{ background: '#d286e2', color: 'white' }}
               >
                 About
               </Link>
               <Link
-                className="nav__item nav__link"
+                className={`nav__item nav__link ${this._activeClass('/web/')}`}
                 to={ prefixLink('/web/') }
                 onClick={this._handleNavLink}
-                activeStyle={{ background: '#d286e2', color: 'white' }}
               >
                 Web
               </Link>
               <Link
-                className="nav__item nav__link"
+                className={`nav__item nav__link ${this._activeClass('/graphics/')}`}
                 to={ prefixLink('/graphics/') }
                 onClick={this._handleNavLink}
-                activeStyle={{ background: '#d286e2', color: 'white' }}
               >
                 Graphics
               </Link>
               <Link
-                className="nav__item nav__link"
+                className={`nav__item nav__link ${this._activeClass('/photo/')}`}
                 to={ prefixLink('/photo/') }
                 onClick={this._handleNavLink}
-                activeStyle={{ background: '#d286e2', color: 'white' }}
               >
                 Photo
               </Link>
               <Link
-                className="nav__item nav__link"
+                className={`nav__item nav__link ${this._activeClass('/travel/')}`}
                 to={ prefixLink('/travel/') }
                 onClick={this._handleNavLink}
-                activeStyle={{ background: '#d286e2', color: 'white' }}
               >
                 Travel
               </Link>
