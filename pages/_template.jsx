@@ -73,6 +73,12 @@ export default class Navigation extends React.Component {
                     name="twitter"
                   />
                 </a>
+                <a href="https://instagram.com/juuuuliasun" target="_blank" rel="noreferrer noopener">
+                  <FontAwesome
+                    className="media__icon instagram"
+                    name="instagram"
+                  />
+                </a>
                 <a href="https://www.linkedin.com/in/juliasun5/" target="_blank" rel="noreferrer noopener">
                   <FontAwesome
                     className="media__icon linkedin"

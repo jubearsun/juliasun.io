@@ -10,7 +10,7 @@
   background: rgba(255, 255, 255, 0.99);
   z-index: 10000;
 
-  @media (max-width: 1040px) {
+  @media (max-width: 1075px) {
     transition: max-height 250ms;
     box-shadow: 0 1px 1px 1px rgba($grey, 0.15);
 
@@ -70,6 +70,12 @@
             }
           }
 
+          &.instagram {
+            &:hover {
+              color: #cd486b;
+            }
+          }
+
           &.linkedin {
             &:hover {
               color: #0077b5;
@@ -86,7 +92,7 @@
     }
   }
 
-  @media (max-width: 1040px) {
+  @media (max-width: 1075px) {
     .nav__wrapper {
       .nav__item {
         display: block;
