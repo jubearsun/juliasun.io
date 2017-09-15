@@ -34,7 +34,8 @@ export default class Betta extends React.Component {
               <br />
               <p>
                 The above is a picture of a 10 gallon low tech planted tank home
-                to Dratini the betta and Nautilus the snail.
+                to Dratini the betta and Nautilus the snail (he&#39;s hiding
+                  behind the log so he&#39;s not visible).
               </p>
             </div>
           </div>
