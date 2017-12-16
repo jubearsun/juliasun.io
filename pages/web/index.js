@@ -12,6 +12,11 @@ export default class Web extends React.Component {
   render() {
     const works = [
       {
+        title: 'Holiday UI',
+        img: '../img/works/web/xmas.gif',
+        link: '/web/holiday-ui/',
+      },
+      {
         title: 'CMYK',
         img: '../img/works/web/cmyk.gif',
         link: '/web/cmyk/',

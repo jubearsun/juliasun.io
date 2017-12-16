@@ -184,6 +184,27 @@
   }
 }
 
+.belt__wrapper--resize {
+  width: 100%;
+  font-size: 0;
+
+  .img__wrapper {
+    display: inline-block;
+    width: 33.333333%;
+    vertical-align: top;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+
+    @media (max-width: 760px) {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
 .double__wrapper {
   width: 100%;
   font-size: 0;
