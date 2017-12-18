@@ -54,9 +54,10 @@ export default class Musicals extends React.Component {
         img: '../../img/about/musicals/lionking.png',
       },
       {
-        title: 'Coming Soon!',
-        location: 'Any suggestions on my next show?',
-        img: '../../img/about/musicals/filler.png',
+        title: 'Aladdin',
+        location: 'SHN Orpheum Theater',
+        desc: 'Adam Jacobs, the original Aladdin, was at my showing!  There were some great special effects and magic tricks.',
+        img: '../../img/about/musicals/aladdin.jpg',
       },
       {
         title: 'Coming Soon!',
