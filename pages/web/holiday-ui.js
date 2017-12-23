@@ -93,14 +93,14 @@ export default class HolidayUI extends React.Component {
                 </div>
               </div>
             </a>
-            <a href={prefixLink('/web/newsletter/')}>
+            <a href={prefixLink('/web/cmyk/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">
                     Next
                   </div>
                   <div className="desc--content">
-                    Innovative Design Newsletter
+                    CMYK Website
                   </div>
                 </div>
               </div>

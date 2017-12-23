@@ -77,14 +77,14 @@ export default class RGB extends React.Component {
                 </div>
               </div>
             </a>
-            <a href={prefixLink('/web/cmyk/')}>
+            <a href={prefixLink('/web/holiday-ui/')}>
               <div className="button">
                 <div className="desc">
                   <div className="desc--title">
                     Next
                   </div>
                   <div className="desc--content">
-                    CMYK Website
+                    Holiday UI
                   </div>
                 </div>
               </div>
